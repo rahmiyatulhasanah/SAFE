@@ -18,23 +18,22 @@ namespace SAFE
 
         public void input()
         {
-            Pengguna dataPengguna = new Pengguna;
-            //code here
+            Pengguna dataPengguna = new Pengguna();
         }
 
         public void cari()
         {
-            //code here
+            
         }
 
         public void pilih()
         {
-            //code here
+
         }
 
         public void telp()
         {
-            //code here
+
         }
     }
 }

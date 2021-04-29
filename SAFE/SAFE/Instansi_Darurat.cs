@@ -13,13 +13,13 @@ namespace SAFE
 
         private void identityCheck()
         {
-            //code here
+            
         }
 
-        private void angkatTelp()
-        {
+        //private void angkatTelp()
+        //{
             //code here
-        }
+        //}
 
     }
 }

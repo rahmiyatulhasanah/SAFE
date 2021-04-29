@@ -6,15 +6,24 @@ using System.Threading.Tasks;
 
 namespace SAFE
 {
-    class MenuDarurat
+    public class MenuDarurat
     {
         public int noTelpInstansi;
         public string keadaanDarurat;
         public string solusiPenanganan;
+        public string infoKeadaan;  
+    }
 
-        public void tampil()
+    class KeadaanDarurat : MenuDarurat
+    {
+        public void tampilkan_info(string infoKeadaan)
         {
-            //code here
+            Console.WriteLine(infoKeadaan);
+        }
+
+        public void tampilkan_penanganan (string solusiPenanganan)
+        {
+            Console.WriteLine(solusiPenanganan);
         }
     }
 }
