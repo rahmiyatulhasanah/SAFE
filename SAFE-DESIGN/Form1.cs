@@ -12,8 +12,9 @@ namespace SAFE_DESIGN
 {
     public partial class Form1 : Form
     {
-        private Button currentButton;
-        private Form activeForm;
+        public Button currentButton;
+        public Form activeForm;
+        private PictureBox currentPicB;
 
         public Form1()
         {
@@ -26,12 +27,12 @@ namespace SAFE_DESIGN
         private void button_minimize_Click(object sender, EventArgs e)
         { this.WindowState = FormWindowState.Minimized; }
 
-
-        private void ActivateButton(object btnSender)
+        
+        public void ActivateButton(object btnSender)
         {
             if (btnSender != null)
             {
-                if (currentButton != (Button)btnSender)
+                if (currentButton != (Button)btnSender )
                 {
                     DisableButton();
                     currentButton = (Button)btnSender;
@@ -43,7 +44,7 @@ namespace SAFE_DESIGN
             }
         }
 
-        private void DisableButton()
+        public void DisableButton()
         {
             foreach (Control previousBtn in panelMenu.Controls)
             {
@@ -56,11 +57,11 @@ namespace SAFE_DESIGN
                 }
             }
         }
-        private void OpenChildForm (Form childForm, object btnSender)
+
+        public void OpenChildForm (Form childForm, object btnSender)
         {
             if (activeForm != null)
                 activeForm.Close();
-            ActivateButton(btnSender);
             activeForm = childForm;
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
@@ -69,7 +70,9 @@ namespace SAFE_DESIGN
             this.panelDesktopPanel.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
-        }
+        } 
+
+        #region Button
         private void btn_home_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
@@ -88,5 +91,11 @@ namespace SAFE_DESIGN
             ActivateButton(sender);
             OpenChildForm(new Forms._3_Emergency_Calls(), sender);
         }
+
+        private void SAFE_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.frontSafe(), sender);
+        }
+        #endregion
     }
 }

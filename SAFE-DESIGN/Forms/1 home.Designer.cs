@@ -29,262 +29,282 @@ namespace SAFE_DESIGN.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_panas = new System.Windows.Forms.Button();
+            this.btn_hipotermia = new System.Windows.Forms.Button();
+            this.btn_pingsan = new System.Windows.Forms.Button();
+            this.btn_sengatan = new System.Windows.Forms.Button();
+            this.btn_shock = new System.Windows.Forms.Button();
+            this.btn_muntah = new System.Windows.Forms.Button();
+            this.btn_stroke = new System.Windows.Forms.Button();
+            this.btn_kejang = new System.Windows.Forms.Button();
+            this.btn_tersedak = new System.Windows.Forms.Button();
+            this.btn_lecet = new System.Windows.Forms.Button();
+            this.btn_bakar = new System.Windows.Forms.Button();
+            this.btn_tenggelam = new System.Windows.Forms.Button();
+            this.btn_luka = new System.Windows.Forms.Button();
+            this.btn_tulang = new System.Windows.Forms.Button();
+            this.btn_keseleo = new System.Windows.Forms.Button();
+            this.btn_mimisan = new System.Windows.Forms.Button();
+            this.btn_keracunan = new System.Windows.Forms.Button();
+            this.btn_asma = new System.Windows.Forms.Button();
+            this.btn_jantung = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button16
+            // btn_panas
             // 
-            this.button16.FlatAppearance.BorderSize = 0;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Image = global::SAFE_DESIGN.Properties.Resources._19_Sengatan_Panas;
-            this.button16.Location = new System.Drawing.Point(535, 330);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(108, 91);
-            this.button16.TabIndex = 38;
-            this.button16.UseVisualStyleBackColor = true;
+            this.btn_panas.FlatAppearance.BorderSize = 0;
+            this.btn_panas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_panas.Image = global::SAFE_DESIGN.Properties.Resources._19_Sengatan_Panas;
+            this.btn_panas.Location = new System.Drawing.Point(535, 330);
+            this.btn_panas.Name = "btn_panas";
+            this.btn_panas.Size = new System.Drawing.Size(108, 91);
+            this.btn_panas.TabIndex = 38;
+            this.btn_panas.UseVisualStyleBackColor = true;
+            this.btn_panas.Click += new System.EventHandler(this.btn_panas_Click);
             // 
-            // button17
+            // btn_hipotermia
             // 
-            this.button17.FlatAppearance.BorderSize = 0;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Image = global::SAFE_DESIGN.Properties.Resources._18_Hipotermia;
-            this.button17.Location = new System.Drawing.Point(402, 330);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(108, 91);
-            this.button17.TabIndex = 37;
-            this.button17.UseVisualStyleBackColor = true;
+            this.btn_hipotermia.FlatAppearance.BorderSize = 0;
+            this.btn_hipotermia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_hipotermia.Image = global::SAFE_DESIGN.Properties.Resources._18_Hipotermia;
+            this.btn_hipotermia.Location = new System.Drawing.Point(402, 330);
+            this.btn_hipotermia.Name = "btn_hipotermia";
+            this.btn_hipotermia.Size = new System.Drawing.Size(108, 91);
+            this.btn_hipotermia.TabIndex = 37;
+            this.btn_hipotermia.UseVisualStyleBackColor = true;
+            this.btn_hipotermia.Click += new System.EventHandler(this.btn_hipotermia_Click);
             // 
-            // button19
+            // btn_pingsan
             // 
-            this.button19.FlatAppearance.BorderSize = 0;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Image = global::SAFE_DESIGN.Properties.Resources._17_pingsan;
-            this.button19.Location = new System.Drawing.Point(142, 330);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(108, 91);
-            this.button19.TabIndex = 36;
-            this.button19.UseVisualStyleBackColor = true;
+            this.btn_pingsan.FlatAppearance.BorderSize = 0;
+            this.btn_pingsan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_pingsan.Image = global::SAFE_DESIGN.Properties.Resources._17_pingsan;
+            this.btn_pingsan.Location = new System.Drawing.Point(142, 330);
+            this.btn_pingsan.Name = "btn_pingsan";
+            this.btn_pingsan.Size = new System.Drawing.Size(108, 91);
+            this.btn_pingsan.TabIndex = 36;
+            this.btn_pingsan.UseVisualStyleBackColor = true;
+            this.btn_pingsan.Click += new System.EventHandler(this.btn_pingsan_Click);
             // 
-            // button20
+            // btn_sengatan
             // 
-            this.button20.FlatAppearance.BorderSize = 0;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Image = global::SAFE_DESIGN.Properties.Resources._16_Sengatan;
-            this.button20.Location = new System.Drawing.Point(11, 330);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(108, 91);
-            this.button20.TabIndex = 35;
-            this.button20.UseVisualStyleBackColor = true;
+            this.btn_sengatan.FlatAppearance.BorderSize = 0;
+            this.btn_sengatan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_sengatan.Image = global::SAFE_DESIGN.Properties.Resources._16_Sengatan;
+            this.btn_sengatan.Location = new System.Drawing.Point(11, 330);
+            this.btn_sengatan.Name = "btn_sengatan";
+            this.btn_sengatan.Size = new System.Drawing.Size(108, 91);
+            this.btn_sengatan.TabIndex = 35;
+            this.btn_sengatan.UseVisualStyleBackColor = true;
+            this.btn_sengatan.Click += new System.EventHandler(this.btn_sengatan_Click);
             // 
-            // button11
+            // btn_shock
             // 
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Image = global::SAFE_DESIGN.Properties.Resources._15_Shock;
-            this.button11.Location = new System.Drawing.Point(535, 224);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(108, 91);
-            this.button11.TabIndex = 34;
-            this.button11.UseVisualStyleBackColor = true;
+            this.btn_shock.FlatAppearance.BorderSize = 0;
+            this.btn_shock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_shock.Image = global::SAFE_DESIGN.Properties.Resources._15_Shock;
+            this.btn_shock.Location = new System.Drawing.Point(535, 224);
+            this.btn_shock.Name = "btn_shock";
+            this.btn_shock.Size = new System.Drawing.Size(108, 91);
+            this.btn_shock.TabIndex = 34;
+            this.btn_shock.UseVisualStyleBackColor = true;
+            this.btn_shock.Click += new System.EventHandler(this.btn_shock_Click);
             // 
-            // button12
+            // btn_muntah
             // 
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Image = global::SAFE_DESIGN.Properties.Resources._14_muntah;
-            this.button12.Location = new System.Drawing.Point(402, 224);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(108, 91);
-            this.button12.TabIndex = 33;
-            this.button12.UseVisualStyleBackColor = true;
+            this.btn_muntah.FlatAppearance.BorderSize = 0;
+            this.btn_muntah.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_muntah.Image = global::SAFE_DESIGN.Properties.Resources._14_muntah;
+            this.btn_muntah.Location = new System.Drawing.Point(402, 224);
+            this.btn_muntah.Name = "btn_muntah";
+            this.btn_muntah.Size = new System.Drawing.Size(108, 91);
+            this.btn_muntah.TabIndex = 33;
+            this.btn_muntah.UseVisualStyleBackColor = true;
+            this.btn_muntah.Click += new System.EventHandler(this.btn_muntah_Click);
             // 
-            // button13
+            // btn_stroke
             // 
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Image = global::SAFE_DESIGN.Properties.Resources._13_stroke;
-            this.button13.Location = new System.Drawing.Point(272, 224);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(108, 91);
-            this.button13.TabIndex = 32;
-            this.button13.UseVisualStyleBackColor = true;
+            this.btn_stroke.FlatAppearance.BorderSize = 0;
+            this.btn_stroke.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_stroke.Image = global::SAFE_DESIGN.Properties.Resources._13_stroke;
+            this.btn_stroke.Location = new System.Drawing.Point(272, 224);
+            this.btn_stroke.Name = "btn_stroke";
+            this.btn_stroke.Size = new System.Drawing.Size(108, 91);
+            this.btn_stroke.TabIndex = 32;
+            this.btn_stroke.UseVisualStyleBackColor = true;
+            this.btn_stroke.Click += new System.EventHandler(this.btn_stroke_Click);
             // 
-            // button14
+            // btn_kejang
             // 
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Image = global::SAFE_DESIGN.Properties.Resources._12_kejang;
-            this.button14.Location = new System.Drawing.Point(142, 224);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(108, 91);
-            this.button14.TabIndex = 31;
-            this.button14.UseVisualStyleBackColor = true;
+            this.btn_kejang.FlatAppearance.BorderSize = 0;
+            this.btn_kejang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_kejang.Image = global::SAFE_DESIGN.Properties.Resources._12_kejang;
+            this.btn_kejang.Location = new System.Drawing.Point(142, 224);
+            this.btn_kejang.Name = "btn_kejang";
+            this.btn_kejang.Size = new System.Drawing.Size(108, 91);
+            this.btn_kejang.TabIndex = 31;
+            this.btn_kejang.UseVisualStyleBackColor = true;
+            this.btn_kejang.Click += new System.EventHandler(this.btn_kejang_Click);
             // 
-            // button15
+            // btn_tersedak
             // 
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Image = global::SAFE_DESIGN.Properties.Resources._11_tersedak;
-            this.button15.Location = new System.Drawing.Point(11, 224);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(108, 91);
-            this.button15.TabIndex = 30;
-            this.button15.UseVisualStyleBackColor = true;
+            this.btn_tersedak.FlatAppearance.BorderSize = 0;
+            this.btn_tersedak.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_tersedak.Image = global::SAFE_DESIGN.Properties.Resources._11_tersedak;
+            this.btn_tersedak.Location = new System.Drawing.Point(11, 224);
+            this.btn_tersedak.Name = "btn_tersedak";
+            this.btn_tersedak.Size = new System.Drawing.Size(108, 91);
+            this.btn_tersedak.TabIndex = 30;
+            this.btn_tersedak.UseVisualStyleBackColor = true;
+            this.btn_tersedak.Click += new System.EventHandler(this.btn_tersedak_Click);
             // 
-            // button6
+            // btn_lecet
             // 
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Image = global::SAFE_DESIGN.Properties.Resources._10_l_lecet;
-            this.button6.Location = new System.Drawing.Point(535, 117);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(108, 91);
-            this.button6.TabIndex = 29;
-            this.button6.UseVisualStyleBackColor = true;
+            this.btn_lecet.FlatAppearance.BorderSize = 0;
+            this.btn_lecet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_lecet.Image = global::SAFE_DESIGN.Properties.Resources._10_l_lecet;
+            this.btn_lecet.Location = new System.Drawing.Point(535, 117);
+            this.btn_lecet.Name = "btn_lecet";
+            this.btn_lecet.Size = new System.Drawing.Size(108, 91);
+            this.btn_lecet.TabIndex = 29;
+            this.btn_lecet.UseVisualStyleBackColor = true;
+            this.btn_lecet.Click += new System.EventHandler(this.btn_lecet_Click);
             // 
-            // button7
+            // btn_bakar
             // 
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Image = global::SAFE_DESIGN.Properties.Resources._9_l_bakar;
-            this.button7.Location = new System.Drawing.Point(402, 117);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(108, 91);
-            this.button7.TabIndex = 28;
-            this.button7.UseVisualStyleBackColor = true;
+            this.btn_bakar.FlatAppearance.BorderSize = 0;
+            this.btn_bakar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_bakar.Image = global::SAFE_DESIGN.Properties.Resources._9_l_bakar;
+            this.btn_bakar.Location = new System.Drawing.Point(402, 117);
+            this.btn_bakar.Name = "btn_bakar";
+            this.btn_bakar.Size = new System.Drawing.Size(108, 91);
+            this.btn_bakar.TabIndex = 28;
+            this.btn_bakar.UseVisualStyleBackColor = true;
+            this.btn_bakar.Click += new System.EventHandler(this.btn_bakar_Click);
             // 
-            // button8
+            // btn_tenggelam
             // 
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Image = global::SAFE_DESIGN.Properties.Resources._8_Tenggelam;
-            this.button8.Location = new System.Drawing.Point(272, 117);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(108, 91);
-            this.button8.TabIndex = 27;
-            this.button8.UseVisualStyleBackColor = true;
+            this.btn_tenggelam.FlatAppearance.BorderSize = 0;
+            this.btn_tenggelam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_tenggelam.Image = global::SAFE_DESIGN.Properties.Resources._8_Tenggelam;
+            this.btn_tenggelam.Location = new System.Drawing.Point(272, 117);
+            this.btn_tenggelam.Name = "btn_tenggelam";
+            this.btn_tenggelam.Size = new System.Drawing.Size(108, 91);
+            this.btn_tenggelam.TabIndex = 27;
+            this.btn_tenggelam.UseVisualStyleBackColor = true;
+            this.btn_tenggelam.Click += new System.EventHandler(this.btn_tenggelam_Click);
             // 
-            // button9
+            // btn_luka
             // 
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Image = global::SAFE_DESIGN.Properties.Resources._7_luka;
-            this.button9.Location = new System.Drawing.Point(142, 117);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(108, 91);
-            this.button9.TabIndex = 26;
-            this.button9.UseVisualStyleBackColor = true;
+            this.btn_luka.FlatAppearance.BorderSize = 0;
+            this.btn_luka.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_luka.Image = global::SAFE_DESIGN.Properties.Resources._7_luka;
+            this.btn_luka.Location = new System.Drawing.Point(142, 117);
+            this.btn_luka.Name = "btn_luka";
+            this.btn_luka.Size = new System.Drawing.Size(108, 91);
+            this.btn_luka.TabIndex = 26;
+            this.btn_luka.UseVisualStyleBackColor = true;
+            this.btn_luka.Click += new System.EventHandler(this.btn_luka_Click);
             // 
-            // button10
+            // btn_tulang
             // 
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Image = global::SAFE_DESIGN.Properties.Resources._6_patah_tulang;
-            this.button10.Location = new System.Drawing.Point(11, 117);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(108, 91);
-            this.button10.TabIndex = 25;
-            this.button10.UseVisualStyleBackColor = true;
+            this.btn_tulang.FlatAppearance.BorderSize = 0;
+            this.btn_tulang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_tulang.Image = global::SAFE_DESIGN.Properties.Resources._6_patah_tulang;
+            this.btn_tulang.Location = new System.Drawing.Point(11, 117);
+            this.btn_tulang.Name = "btn_tulang";
+            this.btn_tulang.Size = new System.Drawing.Size(108, 91);
+            this.btn_tulang.TabIndex = 25;
+            this.btn_tulang.UseVisualStyleBackColor = true;
+            this.btn_tulang.Click += new System.EventHandler(this.btn_tulang_Click);
             // 
-            // button5
+            // btn_keseleo
             // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Image = global::SAFE_DESIGN.Properties.Resources._5_Keseleo;
-            this.button5.Location = new System.Drawing.Point(535, 11);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(108, 91);
-            this.button5.TabIndex = 24;
-            this.button5.UseVisualStyleBackColor = true;
+            this.btn_keseleo.FlatAppearance.BorderSize = 0;
+            this.btn_keseleo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_keseleo.Image = global::SAFE_DESIGN.Properties.Resources._5_Keseleo;
+            this.btn_keseleo.Location = new System.Drawing.Point(535, 11);
+            this.btn_keseleo.Name = "btn_keseleo";
+            this.btn_keseleo.Size = new System.Drawing.Size(108, 91);
+            this.btn_keseleo.TabIndex = 24;
+            this.btn_keseleo.UseVisualStyleBackColor = true;
+            this.btn_keseleo.Click += new System.EventHandler(this.btn_keseleo_Click);
             // 
-            // button4
+            // btn_mimisan
             // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Image = global::SAFE_DESIGN.Properties.Resources._4_mimisan;
-            this.button4.Location = new System.Drawing.Point(402, 11);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(108, 91);
-            this.button4.TabIndex = 23;
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_mimisan.FlatAppearance.BorderSize = 0;
+            this.btn_mimisan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_mimisan.Image = global::SAFE_DESIGN.Properties.Resources._4_mimisan;
+            this.btn_mimisan.Location = new System.Drawing.Point(402, 11);
+            this.btn_mimisan.Name = "btn_mimisan";
+            this.btn_mimisan.Size = new System.Drawing.Size(108, 91);
+            this.btn_mimisan.TabIndex = 23;
+            this.btn_mimisan.UseVisualStyleBackColor = true;
+            this.btn_mimisan.Click += new System.EventHandler(this.btn_mimisan_Click);
             // 
-            // button3
+            // btn_keracunan
             // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Image = global::SAFE_DESIGN.Properties.Resources._3_keracunan;
-            this.button3.Location = new System.Drawing.Point(272, 11);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(108, 91);
-            this.button3.TabIndex = 22;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn_keracunan.FlatAppearance.BorderSize = 0;
+            this.btn_keracunan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_keracunan.Image = global::SAFE_DESIGN.Properties.Resources._3_keracunan;
+            this.btn_keracunan.Location = new System.Drawing.Point(272, 11);
+            this.btn_keracunan.Name = "btn_keracunan";
+            this.btn_keracunan.Size = new System.Drawing.Size(108, 91);
+            this.btn_keracunan.TabIndex = 22;
+            this.btn_keracunan.UseVisualStyleBackColor = true;
+            this.btn_keracunan.Click += new System.EventHandler(this.btn_keracunan_Click);
             // 
-            // button2
+            // btn_asma
             // 
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Image = global::SAFE_DESIGN.Properties.Resources._2_asma;
-            this.button2.Location = new System.Drawing.Point(142, 11);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(108, 91);
-            this.button2.TabIndex = 21;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_asma.FlatAppearance.BorderSize = 0;
+            this.btn_asma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_asma.Image = global::SAFE_DESIGN.Properties.Resources._2_asma;
+            this.btn_asma.Location = new System.Drawing.Point(142, 11);
+            this.btn_asma.Name = "btn_asma";
+            this.btn_asma.Size = new System.Drawing.Size(108, 91);
+            this.btn_asma.TabIndex = 21;
+            this.btn_asma.UseVisualStyleBackColor = true;
+            this.btn_asma.Click += new System.EventHandler(this.btn_asma_Click);
             // 
-            // button1
+            // btn_jantung
             // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = global::SAFE_DESIGN.Properties.Resources._1_serangan_jantung;
-            this.button1.Location = new System.Drawing.Point(11, 11);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(108, 91);
-            this.button1.TabIndex = 20;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_jantung.FlatAppearance.BorderSize = 0;
+            this.btn_jantung.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_jantung.Image = global::SAFE_DESIGN.Properties.Resources._1_serangan_jantung;
+            this.btn_jantung.Location = new System.Drawing.Point(11, 11);
+            this.btn_jantung.Name = "btn_jantung";
+            this.btn_jantung.Size = new System.Drawing.Size(108, 91);
+            this.btn_jantung.TabIndex = 20;
+            this.btn_jantung.UseVisualStyleBackColor = true;
+            this.btn_jantung.Click += new System.EventHandler(this.btn_jantung_Click);
             // 
             // _1_home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             this.ClientSize = new System.Drawing.Size(650, 433);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button19);
-            this.Controls.Add(this.button20);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_panas);
+            this.Controls.Add(this.btn_hipotermia);
+            this.Controls.Add(this.btn_pingsan);
+            this.Controls.Add(this.btn_sengatan);
+            this.Controls.Add(this.btn_shock);
+            this.Controls.Add(this.btn_muntah);
+            this.Controls.Add(this.btn_stroke);
+            this.Controls.Add(this.btn_kejang);
+            this.Controls.Add(this.btn_tersedak);
+            this.Controls.Add(this.btn_lecet);
+            this.Controls.Add(this.btn_bakar);
+            this.Controls.Add(this.btn_tenggelam);
+            this.Controls.Add(this.btn_luka);
+            this.Controls.Add(this.btn_tulang);
+            this.Controls.Add(this.btn_keseleo);
+            this.Controls.Add(this.btn_mimisan);
+            this.Controls.Add(this.btn_keracunan);
+            this.Controls.Add(this.btn_asma);
+            this.Controls.Add(this.btn_jantung);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "_1_home";
             this.Text = "_1_home";
@@ -294,24 +314,24 @@ namespace SAFE_DESIGN.Forms
 
         #endregion
 
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_panas;
+        private System.Windows.Forms.Button btn_hipotermia;
+        private System.Windows.Forms.Button btn_pingsan;
+        private System.Windows.Forms.Button btn_sengatan;
+        private System.Windows.Forms.Button btn_shock;
+        private System.Windows.Forms.Button btn_muntah;
+        private System.Windows.Forms.Button btn_stroke;
+        private System.Windows.Forms.Button btn_kejang;
+        private System.Windows.Forms.Button btn_tersedak;
+        private System.Windows.Forms.Button btn_lecet;
+        private System.Windows.Forms.Button btn_bakar;
+        private System.Windows.Forms.Button btn_tenggelam;
+        private System.Windows.Forms.Button btn_luka;
+        private System.Windows.Forms.Button btn_tulang;
+        private System.Windows.Forms.Button btn_keseleo;
+        private System.Windows.Forms.Button btn_mimisan;
+        private System.Windows.Forms.Button btn_keracunan;
+        private System.Windows.Forms.Button btn_asma;
+        private System.Windows.Forms.Button btn_jantung;
     }
 }

@@ -118,77 +118,110 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="kejang epilepsi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\kejang epilepsi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="keracunan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\keracunan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="luka bakar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\luka bakar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="paru paru" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\paru paru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="keseleo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\keseleo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="jantung" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\jantung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="close_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\close_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tersedak" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\tersedak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="serangan panas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\serangan panas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="luka" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\luka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="stroke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\stroke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="minimize_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\minimize_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="luka lecet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\luka lecet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1 serangan jantung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\1 serangan jantung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pingsan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\image\pingsan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mimisan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\mimisan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="serangan panas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\serangan panas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sengatan serangga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\sengatan serangga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="7 luka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\7 luka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jantung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\jantung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 Shock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\15 Shock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="luka bakar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\luka bakar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tenggelam" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\image\tenggelam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="stroke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\stroke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 l bakar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\9 l bakar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14 muntah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\14 muntah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tersedak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\tersedak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\close_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="patah tulang" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\image\patah tulang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\shock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="keseleo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\keseleo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="16 Sengatan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\16 Sengatan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimize_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\minimize_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="muntah" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\image\muntah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hipotermia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\hipotermia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1 serangan jantung" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\1 serangan jantung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2 asma" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\2 asma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="13 stroke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\13 stroke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="3 keracunan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\image\3 keracunan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mimisan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\mimisan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 patah tulang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\6 patah tulang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 Tenggelam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\8 Tenggelam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kejang epilepsi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\kejang epilepsi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sengatan serangga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\sengatan serangga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="luka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\luka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 kejang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\12 kejang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="19 Sengatan Panas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\19 Sengatan Panas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18 Hipotermia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\18 Hipotermia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 tersedak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\11 tersedak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\shock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paru paru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\paru paru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keracunan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\keracunan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="luka lecet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\luka lecet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 asma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\2 asma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="4 mimisan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\image\4 mimisan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,46 +229,16 @@
   <data name="5 Keseleo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\image\5 Keseleo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="6 patah tulang" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\6 patah tulang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="7 luka" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\7 luka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="8 Tenggelam" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\8 Tenggelam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="9 l bakar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\9 l bakar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="10 l lecet" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\image\10 l lecet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="11 tersedak" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\11 tersedak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="12 kejang" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\12 kejang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="13 stroke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\13 stroke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="14 muntah" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\14 muntah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="15 Shock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\15 Shock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="16 Sengatan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\16 Sengatan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hipotermia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\hipotermia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="17 pingsan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\image\17 pingsan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="18 Hipotermia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\18 Hipotermia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="19 Sengatan Panas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\19 Sengatan Panas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Logo Safe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\Logo Safe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

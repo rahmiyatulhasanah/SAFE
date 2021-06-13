@@ -19,5 +19,8 @@
     <Compile Update="Forms\3 Emergency Calls.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\frontSafe.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

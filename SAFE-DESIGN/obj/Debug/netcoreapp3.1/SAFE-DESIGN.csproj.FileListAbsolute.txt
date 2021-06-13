@@ -19,3 +19,4 @@ D:\Ami\Perkuli ahan\2 Semester 2\PBO\Kodingan\Coba-coba\SAFE-DESIGN\obj\Debug\ne
 D:\Ami\Perkuli ahan\2 Semester 2\PBO\Kodingan\Coba-coba\SAFE-DESIGN\obj\Debug\netcoreapp3.1\SAFE_DESIGN.Forms._1_home.resources
 D:\Ami\Perkuli ahan\2 Semester 2\PBO\Kodingan\Coba-coba\SAFE-DESIGN\obj\Debug\netcoreapp3.1\SAFE_DESIGN.Forms._2_profile.resources
 D:\Ami\Perkuli ahan\2 Semester 2\PBO\Kodingan\Coba-coba\SAFE-DESIGN\obj\Debug\netcoreapp3.1\SAFE_DESIGN.Forms._3_Emergency_Calls.resources
+D:\Ami\Perkuli ahan\2 Semester 2\PBO\Kodingan\Coba-coba\SAFE-DESIGN\obj\Debug\netcoreapp3.1\SAFE_DESIGN.Forms.frontSafe.resources
