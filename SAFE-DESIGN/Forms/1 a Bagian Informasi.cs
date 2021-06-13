@@ -21,7 +21,7 @@ namespace SAFE_DESIGN.Forms
 
         public void informasi()
         {
-            
+
         }
     }
 }

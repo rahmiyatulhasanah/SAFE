@@ -14,5 +14,20 @@ namespace SAFE_DESIGN.Forms
         {
             InitializeComponent();
         }
+
+        private void btn_emergency_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_unknownperson_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_dirisendiri_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

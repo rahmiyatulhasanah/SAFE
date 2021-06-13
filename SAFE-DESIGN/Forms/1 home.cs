@@ -18,13 +18,11 @@ namespace SAFE_DESIGN.Forms
             InitializeComponent();
         }
 
-        public void informations()
-        {
-
-        }
-
         public void showForms()
         {
+            _1_a_Bagian_Informasi informasi = new _1_a_Bagian_Informasi();
+            informasi.informasi();
+
             Form form = new Forms._1_a_Bagian_Informasi();
             form.Show();
         }

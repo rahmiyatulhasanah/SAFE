@@ -14,5 +14,11 @@ namespace SAFE_DESIGN.Forms
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            EditData edit = new EditData();
+            edit.Show();
+        }
     }
 }

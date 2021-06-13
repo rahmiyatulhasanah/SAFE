@@ -41,9 +41,9 @@ namespace SAFE_DESIGN.Forms
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_unknownperson = new System.Windows.Forms.Button();
+            this.btn_dirisendiri = new System.Windows.Forms.Button();
+            this.btn_emergency = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label8
@@ -166,42 +166,45 @@ namespace SAFE_DESIGN.Forms
             this.label1.TabIndex = 23;
             this.label1.Text = "Nama";
             // 
-            // button3
+            // btn_unknownperson
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button3.Location = new System.Drawing.Point(32, 334);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(220, 33);
-            this.button3.TabIndex = 22;
-            this.button3.Text = "Korban Orang Tak Dikenal";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btn_unknownperson.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.btn_unknownperson.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_unknownperson.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_unknownperson.Location = new System.Drawing.Point(32, 334);
+            this.btn_unknownperson.Name = "btn_unknownperson";
+            this.btn_unknownperson.Size = new System.Drawing.Size(220, 33);
+            this.btn_unknownperson.TabIndex = 22;
+            this.btn_unknownperson.Text = "Korban Orang Tak Dikenal";
+            this.btn_unknownperson.UseVisualStyleBackColor = false;
+            this.btn_unknownperson.Click += new System.EventHandler(this.btn_unknownperson_Click);
             // 
-            // button2
+            // btn_dirisendiri
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(32, 373);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(220, 33);
-            this.button2.TabIndex = 21;
-            this.button2.Text = "Saya Adalah Korban";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_dirisendiri.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.btn_dirisendiri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_dirisendiri.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_dirisendiri.Location = new System.Drawing.Point(32, 373);
+            this.btn_dirisendiri.Name = "btn_dirisendiri";
+            this.btn_dirisendiri.Size = new System.Drawing.Size(220, 33);
+            this.btn_dirisendiri.TabIndex = 21;
+            this.btn_dirisendiri.Text = "Saya Adalah Korban";
+            this.btn_dirisendiri.UseVisualStyleBackColor = false;
+            this.btn_dirisendiri.Click += new System.EventHandler(this.btn_dirisendiri_Click);
             // 
-            // button1
+            // btn_emergency
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(258, 334);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 72);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Call Emergency";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_emergency.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.btn_emergency.FlatAppearance.BorderSize = 0;
+            this.btn_emergency.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_emergency.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_emergency.Location = new System.Drawing.Point(258, 334);
+            this.btn_emergency.Name = "btn_emergency";
+            this.btn_emergency.Size = new System.Drawing.Size(124, 72);
+            this.btn_emergency.TabIndex = 20;
+            this.btn_emergency.Text = "Call Emergency";
+            this.btn_emergency.UseVisualStyleBackColor = false;
+            this.btn_emergency.Click += new System.EventHandler(this.btn_emergency_Click);
             // 
             // _3_Emergency_Calls
             // 
@@ -221,9 +224,9 @@ namespace SAFE_DESIGN.Forms
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_unknownperson);
+            this.Controls.Add(this.btn_dirisendiri);
+            this.Controls.Add(this.btn_emergency);
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "_3_Emergency_Calls";
@@ -247,8 +250,8 @@ namespace SAFE_DESIGN.Forms
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_unknownperson;
+        private System.Windows.Forms.Button btn_dirisendiri;
+        private System.Windows.Forms.Button btn_emergency;
     }
 }

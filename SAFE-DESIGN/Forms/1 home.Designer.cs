@@ -270,11 +270,14 @@ namespace SAFE_DESIGN.Forms
             // 
             this.btn_jantung.FlatAppearance.BorderSize = 0;
             this.btn_jantung.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_jantung.Font = new System.Drawing.Font("Segoe UI", 1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_jantung.ForeColor = System.Drawing.Color.Black;
             this.btn_jantung.Image = global::SAFE_DESIGN.Properties.Resources._1_serangan_jantung;
             this.btn_jantung.Location = new System.Drawing.Point(11, 11);
             this.btn_jantung.Name = "btn_jantung";
             this.btn_jantung.Size = new System.Drawing.Size(108, 91);
             this.btn_jantung.TabIndex = 20;
+            this.btn_jantung.Text = "jantung";
             this.btn_jantung.UseVisualStyleBackColor = true;
             this.btn_jantung.Click += new System.EventHandler(this.btn_jantung_Click);
             // 

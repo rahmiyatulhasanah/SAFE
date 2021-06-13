@@ -14,5 +14,19 @@ namespace SAFE_DESIGN
         {
             InitializeComponent();
         }
+
+        private void btn_ok_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_batal_Click(object sender, EventArgs e)
+        { this.Close(); }
+
+        private void button_minimize_Click(object sender, EventArgs e)
+        { this.WindowState = FormWindowState.Minimized; }
+
+        private void button_close_Click(object sender, EventArgs e)
+        { this.Close(); }
     }
 }

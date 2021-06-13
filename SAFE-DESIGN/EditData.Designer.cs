@@ -38,10 +38,10 @@ namespace SAFE_DESIGN
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_ok = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_batal = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -58,6 +58,7 @@ namespace SAFE_DESIGN
             this.button_close.Size = new System.Drawing.Size(23, 21);
             this.button_close.TabIndex = 6;
             this.button_close.UseVisualStyleBackColor = true;
+            this.button_close.Click += new System.EventHandler(this.button_close_Click);
             // 
             // button_minimize
             // 
@@ -69,6 +70,7 @@ namespace SAFE_DESIGN
             this.button_minimize.Size = new System.Drawing.Size(23, 21);
             this.button_minimize.TabIndex = 5;
             this.button_minimize.UseVisualStyleBackColor = true;
+            this.button_minimize.Click += new System.EventHandler(this.button_minimize_Click);
             // 
             // label1
             // 
@@ -142,18 +144,19 @@ namespace SAFE_DESIGN
             this.radioButton4.Text = "AB";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btn_ok
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(84, 412);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "OK";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_ok.BackColor = System.Drawing.Color.White;
+            this.btn_ok.FlatAppearance.BorderSize = 0;
+            this.btn_ok.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ok.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btn_ok.Location = new System.Drawing.Point(84, 407);
+            this.btn_ok.Name = "btn_ok";
+            this.btn_ok.Size = new System.Drawing.Size(75, 23);
+            this.btn_ok.TabIndex = 14;
+            this.btn_ok.Text = "OK";
+            this.btn_ok.UseVisualStyleBackColor = false;
+            this.btn_ok.Click += new System.EventHandler(this.btn_ok_Click);
             // 
             // textBox1
             // 
@@ -169,15 +172,16 @@ namespace SAFE_DESIGN
             this.textBox2.Size = new System.Drawing.Size(180, 22);
             this.textBox2.TabIndex = 16;
             // 
-            // button2
+            // btn_batal
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(181, 412);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "Batal";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_batal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_batal.Location = new System.Drawing.Point(181, 407);
+            this.btn_batal.Name = "btn_batal";
+            this.btn_batal.Size = new System.Drawing.Size(75, 23);
+            this.btn_batal.TabIndex = 17;
+            this.btn_batal.Text = "Batal";
+            this.btn_batal.UseVisualStyleBackColor = true;
+            this.btn_batal.Click += new System.EventHandler(this.btn_batal_Click);
             // 
             // richTextBox1
             // 
@@ -223,10 +227,10 @@ namespace SAFE_DESIGN
             this.Controls.Add(this.label4);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btn_batal);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_ok);
             this.Controls.Add(this.radioButton4);
             this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.radioButton2);
@@ -257,10 +261,10 @@ namespace SAFE_DESIGN
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_ok;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_batal;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.Label label4;
